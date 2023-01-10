@@ -1,0 +1,93 @@
+.flexbox1 {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    height: 50px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    height: 50px;
+}
+
+.red-box {
+background-color: red;
+color: red;
+width: 30px;
+height: 30px;
+}
+
+.flexbox2 {
+    display: flex;
+    height: 50px;
+}
+
+.child-active {
+    align-self: center;
+  }
+
+.blue-box {
+    background-color: blue;
+    color: blue;
+    width: 50px;
+    height: 50px;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    height: 50px;
+}
+
+#red {
+    background-color: red;
+    color: red;
+    height: 50px;
+    width: 80px;
+}
+
+#green {
+    background-color: green;
+    color: green;
+    height: 15px;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 5fr 1fr 5fr 1fr 5fr 1fr;
+    height: 50px;
+}
+
+.row8-yellow {
+    background-color: yellow;
+    color: yellow;
+}
+
+.row8-green {
+    background-color: green;
+    color: green;
+}
+
+.grid5 {
+    display: grid;
+    grid-template-columns: 15fr 1fr 15fr 1fr 15fr 1fr 15fr 1fr 15fr;
+    height: 50px;
+}
+
+.grid-row5 {
+    display: grid;
+    grid-template-columns: 1fr 30px 1fr;
+    height: 50px;
+}
+
+.grid-row6 {
+    display: grid;
+    grid-template-columns: 1fr 50px 1fr;
+    height: 50px;
+}
+
