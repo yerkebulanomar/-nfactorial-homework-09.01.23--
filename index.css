@@ -1,9 +1,10 @@
-.flexbox1 {
+.flexbox-row1 {
     display: flex;
     flex-direction: row;
     height: 50px;
 }
-.grid1 {
+
+.grid-row2 {
     display: grid;
     grid-template-columns: 1fr 50px;
     height: 50px;
@@ -91,3 +92,34 @@ height: 30px;
     height: 50px;
 }
 
+@media only screen and (min-width: 600px) {
+   
+    .grid-row2 {
+        display: grid;
+        grid-template-columns: 80% 20%;
+    }
+
+    .grid2 {
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+    }
+
+    .grid-row6 {
+        display: grid;
+        grid-template-columns: 1fr 50px 1fr;
+    }
+
+    /* .grid4 {
+        display: grid;
+        grid-template-columns: 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr;
+        height: 50px;
+    }
+
+    .grid5 {
+        display: grid;
+        grid-template-columns:  4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr;
+        height: 50px;
+    } */
+
+  }
+  
