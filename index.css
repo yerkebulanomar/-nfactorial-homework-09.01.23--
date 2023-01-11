@@ -92,7 +92,7 @@ height: 30px;
     height: 50px;
 }
 
-@media only screen and (min-width: 600px) {
+@media (max-width: 768px) {
    
     .grid-row2 {
         display: grid;
@@ -109,7 +109,7 @@ height: 30px;
         grid-template-columns: 1fr 50px 1fr;
     }
 
-    /* .grid4 {
+    .grid4 {
         display: grid;
         grid-template-columns: 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr;
         height: 50px;
@@ -119,7 +119,7 @@ height: 30px;
         display: grid;
         grid-template-columns:  4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr;
         height: 50px;
-    } */
+    }
 
   }
   
